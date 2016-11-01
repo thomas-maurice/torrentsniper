@@ -1,0 +1,6 @@
+ClientID: XXXXXXX
+TorrentTopic: exemple.torrent
+TorrentLinksTopic: exemple.torrent_links
+ESIndex: torrent
+KafkaHost: "your-kafka-host:9092"
+PromAddre: ":8080"

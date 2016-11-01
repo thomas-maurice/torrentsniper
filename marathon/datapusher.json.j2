@@ -1,0 +1,28 @@
+{
+  "id": "{{ APP_ID }}",
+  "cpus": {{ CPU }},
+  "mem": {{ MEMORY }},
+  "instances": {{ INSTANCES|default(10) }},
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "forcePullImage": true,
+      "parameters": [],
+      "privileged": false,
+      "image": "{{ DOCKER_IMAGE }}",
+      "network": "BRIDGE"
+    }
+  },
+  "env": {
+    "CLIENTID": "{{ CLIENTID }}",
+    "ESADDRESS": "{{ ESADDRESS }}",
+    "ESINDEX": "{{ ESINDEX }}",
+    "KAFKAHOST": "{{ KAFKAHOST }}",
+    "REDISADDRESS": "{{ REDISADDRESS }}",
+    "REDISCACHETTL": "{{ REDISCACHETTL }}",
+    "REDISCONNECTTIMEOUT": "{{ REDISCONNECTTIMEOUT }}",
+    "TORRENTLINKSTOPIC": "{{ TORRENTLINKSTOPIC }}",
+    "TORRENTTOPIC": "{{ TORRENTTOPIC }}",
+    "USEREDIS": "{{ USEREDIS }}"
+  }
+}
