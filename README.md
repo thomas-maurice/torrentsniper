@@ -1,4 +1,5 @@
-# TorrentSniper
+ TorrentSniper
+==============
 
 A troll project where we recoded the french [HADOPI](https://hadopi.fr)
 
@@ -8,10 +9,12 @@ statistical purposes.
 How this project works exactly is detailed
 [there](https://thomas.maurice.fr/blog/2016/10/31/how-we-recoded-hadopi/).
 
-## Compiling it
+ Compiling it
+-------------
 Just type `make`, it will just work and create the binaries in the `bin/` directory.
 
-## Configuring it
+ Configuring it
+---------------
 You need to create basically 3 configuration files, either in `/etc` or in the
 current directory. They are
 
@@ -51,10 +54,12 @@ caps lock them. Exemple: RedisAddress -> REDISADDRESS.
 And it will just work out of the box when you
 launch the binaries.
 
-## Contributing
+ Contributing
+-------------
 Feel free to make pull requests !
 
-## Contributors
+ Contributors
+-------------
 The original idea for this concept comes from [KDevroede](https://twitter.com/KDevroede).
 
 The initial code was written by [Thomas Maurice](https://twitter.com/thomas_maurice) and instrumented
